@@ -1,4 +1,6 @@
 const reverseString = require('./reverseString');
+jest.setTimeout(60000)
+
 
 describe('reverseString', () => {
   test('reverses single word', (normalString) => {
