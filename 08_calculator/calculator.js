@@ -1,9 +1,17 @@
-const add = function() {
-	
+const add = function(addA,addB) {
+
+let addition= addA + addB
+
+return(addition)
+
 };
 
-const subtract = function() {
-	
+const subtract = function(subtractA, subtractB) {
+
+let difference = subtractA - subtractB
+
+return(difference)
+
 };
 
 const sum = function() {

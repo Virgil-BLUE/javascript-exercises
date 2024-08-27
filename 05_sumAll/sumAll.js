@@ -17,8 +17,10 @@ if (0 <= a && 0 <= b && Number.isInteger(a) && Number.isInteger(b)) {
     }
         while (a > b)
     }
-else (sum = "ERROR")
+    else (sum = "ERROR")
 }
+
+else(sum = "ERROR")
 
 return(sum)
 
