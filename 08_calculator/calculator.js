@@ -14,8 +14,16 @@ return(difference)
 
 };
 
-const sum = function() {
-	
+const sum = function(...arg) {
+
+let total = 0;
+
+arg.forEach(element => {
+    total += Number(element)
+});  
+
+return(total)
+
 };
 
 const multiply = function() {
